@@ -34,12 +34,5 @@ namespace Example.Controllers
             })
             .ToArray();
         }
-
-        [Route("[controller]/[action]")]
-        public IEnumerable<string> Items()
-        {
-            var rng = new Random();
-            return new[] { "hello", "bay" };
-        }
     }
 }

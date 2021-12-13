@@ -3,8 +3,8 @@
 
     public class FieldDescription
     {
-        public string Name;
-        public string Type;
+        public string Name { get; }
+        public string Type { get; }
 
         public FieldDescription(string name, string type)
         {
